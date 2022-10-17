@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator walutowy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/list.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/footerContainer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__symbol">Kalkulator walutowy by MSlowins</h1>
+      <nav class="navigation">
+        <ul class="list">
+          <li class="list__item list__item--currentRatesSymbol">
+            Aktualne kursy walut:
+          </li>
+          <li class="list__item list__item--dolarSymbol">
+            1 USD: <span class="list__span">4.9569 </span>zł
+          </li>
+          <li class="list__item list__item--euroSymbol">
+            1 EUR: <span class="list__span">4.8330 </span>zł
+          </li>
+          <li class="list__item list__item--poundSymbol">
+            1 GBP: <span class="list__span">5.5886 </span>zł
+          </li>
+          <li class="list__item list__item--frankSymbol">
+            1 CHF: <span class="list__span">4.9526 </span>zł
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form class="form js-form">
+      <fieldset class="form__filedset">
+        <legend class="form__legend">Kalkulator walutowy</legend>
+        <p>
+          <label><span class="form__labelText">Pole wymagane*</span></label>
+        </p>
+        <p>
+          <label>
+            <span class="form__labelText">Wpisz kwotę w zł*: </span>
+            <input
+              class="form__input js-sum"
+              value=""
+              name="sum"
+              placeholder="Minimalna kwota to 0.1 zł!"
+              type="number"
+              min="0.01"
+              step="0.01"
+              required
+              autofocus
+            />
+          </label>
+        </p>
+        <label>
+          <span class="form__labelText">
+            Wybierz walutę:</span
+          >
+        </label>
+        <ul class="list">
+          <li class="list__item list__item--currency">
+            <label class="list__label">
+              <input
+                class="js-dollar"
+                type="radio"
+                name="radio"
+                value="dollar"
+                checked
+              />
+              USD - Dolar amerykański
+            </label>
+          </li>
+          <li class="list__item list__item--currency">
+            <label>
+              <input class="js-euro" type="radio" name="radio" value="euro" />
+              EUR - Euro
+            </label>
+          </li>
+          <li class="list__item list__item--currency">
+            <label>
+              <input class="js-pound" type="radio" name="radio" value="pound" />
+              GBR - Funt brytyjski
+            </label>
+          </li>
+          <li class="list__item list__item--currency">
+            <label>
+              <input class="js-frank" type="radio" name="radio" value="frank" />
+              CHF - Frank szwajcarski
+            </label>
+          </li>
+        </ul>
+        <p>
+          <label>
+            <span class="form__labelText"
+              >Kalkulator automatycznie przeliczy na:</span
+            >
+            <input
+              class="form__input"
+              name="pln"
+              value="PLN - Polski złoty"
+              disabled
+            />
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="form__labelText">Aktualny kurs wybranej waluty:</span>
+          </label>
+          <input
+            class="form__input js-currentRate"
+            name="currentRate"
+            readonly
+          />
+        </p>
+        <label>
+          <span class="form__labelText">
+            <strong class="form__sumLabel">Kwota po przeliczeniu:</strong>
+          </span>
+          <input
+            class="form__input form__input--finallySum js-finallySum"
+            name="endSum"
+            readonly
+          />
+        </label>
+      </fieldset>
+    </form>
+    <div class="footerContainer">
+      <footer class="footer">Kursy walut aktualne na dzień 14.10.2022 r. Pobrane ze strony NBP <a class="footer__link" href="https://www.nbp.pl">https://www.nbp.pl</a> </footer>
+    </div>
+  </body>
+</html>

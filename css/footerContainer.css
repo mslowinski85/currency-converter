@@ -1,0 +1,20 @@
+.footerContainer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: hsl(0, 0%, 10%);
+}
+
+.footer {
+    font-size: small;
+    color :aliceblue;
+}
+
+.footer__link {
+    color: rgb(44, 150, 243);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer__link::before{
+    content: "\1F449";
+}

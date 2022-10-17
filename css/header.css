@@ -1,0 +1,14 @@
+/* plik header.css */
+
+.header {
+    color: aliceblue;
+    text-align: center;
+    background-color: hsl(0, 0%, 10%);
+    margin: 10px 0px;
+    padding: 1px;
+}
+
+.header__symbol::before {
+    content: "\1F4C9";
+    font-size: x-large;
+}

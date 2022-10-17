@@ -1,0 +1,77 @@
+/* plik form.css */
+
+.form {
+    padding-bottom: 10px;
+}
+
+.form__fieldset {
+    border: 2px solid hsl(0, 0%, 10%);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: hsl(0, 0%, 10%);
+}
+
+.form__labelText {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.form__sumLabel {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.form__input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.form__input--finallySum {
+    font-size: x-large;
+}
+
+.form__select {
+    width: 100%;
+    max-width: 325px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form__input:required {
+    border: 2px solid hsl(0, 0%, 35%);
+}
+
+.form__input:disabled {
+    background-color: hsl(0, 0%, 40%);
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    color: black;
+}
+
+.form__input:read-only {
+    background-color: hsl(0, 0%, 80%);
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    color: black;
+}
+
+.form__legend {
+    background-color: hsl(0, 0%, 10%);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: medium;
+}

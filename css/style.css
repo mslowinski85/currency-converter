@@ -1,0 +1,18 @@
+/* plik style.css */
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::after::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    background-color: #e0dfdfab;
+    padding: 10px 20px;
+    max-width: 850px;
+    margin: 0px auto;
+    overflow-x: auto;
+}

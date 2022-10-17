@@ -1,0 +1,55 @@
+/* plik form.css */
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.list__item {
+    display: inline-block;
+    margin: 0px 10px;
+    font-weight: 600;
+    font-size: large;
+    content: "\20AC";
+    padding: 5px;
+}
+
+.list__item--currentRatesSymbol::before {
+    content: "\1F4B0";
+    margin-right: 5px;
+}
+
+.list__item--dolarSymbol::before {
+    content: "\0024";
+    margin-right: 5px;
+    color: aliceblue;
+}
+
+.list__item--frankSymbol::before {
+    content: "\20A3";
+    margin-right: 5px;
+    color: aliceblue;
+}
+
+.list__item--euroSymbol::before {
+    content: "\20AC";
+    margin-right: 5px;
+    color: aliceblue;
+}
+
+.list__item--poundSymbol::before {
+    content: "\00A3";
+    margin-right: 5px;
+    color: aliceblue;
+}
+
+.list__item--currency {
+    padding: 10px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.list__span {
+    color: hsl(0, 48%, 65%);
+}
+
