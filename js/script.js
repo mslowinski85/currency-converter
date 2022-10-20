@@ -6,14 +6,14 @@
   };
 
   const inputElement = () => {
-    return (element = document.querySelector(".js-sum"));
+    return (element = document.querySelector(".js-inputSum"));
   };
 
   const updateResultInput = (finallySum) => {
     const inputElementFinallySum = document.querySelector(".js-finallySum");
     inputElementFinallySum.value = `${finallySum.toFixed(2)} zł`;
   };
-  
+
   const currentRateValue = (choosingRate) => {
     const inputElementCurrentRate = document.querySelector(".js-currentRate");
     const finallySum = choosingRate * inputElement().value;
