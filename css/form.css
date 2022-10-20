@@ -1,7 +1,11 @@
 /* plik form.css */
 
 .form {
-    padding-bottom: 10px;
+    padding: 0px;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: 20% 8%;
+    background-repeat: no-repeat;
 }
 
 .form__fieldset {
