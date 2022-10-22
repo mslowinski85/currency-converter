@@ -4,7 +4,7 @@
 
 ## Adres aplikacji "Kalkulatora Walutowego"
 
-[https://mslowinski85.github.io/currency-converter/](https://mslowinski85.github.io/currency-converter/currency-conv.html)
+[https://mslowinski85.github.io/currency-converter/](https://mslowinski85.github.io/currency-converter/index.html)
 
 ## Opis działania aplikacji
 
