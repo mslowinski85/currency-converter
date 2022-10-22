@@ -18,7 +18,7 @@
 
 .form__labelText {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     display: inline-block;
     margin: 5px;
 }
@@ -30,7 +30,7 @@
 
 .form__input {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     padding: 10px;
     border: 1px solid #aaa;
     border-radius: 5px;
@@ -42,7 +42,7 @@
 
 .form__select {
     width: 100%;
-    max-width: 325px;
+    max-width: 250px;
     border: 1px solid #aaa;
     border-radius: 5px;
     padding: 10px;
@@ -55,7 +55,7 @@
 .form__input:disabled {
     background-color: hsl(0, 0%, 40%);
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     padding: 10px;
     border: 1px solid #aaa;
     border-radius: 5px;
@@ -65,7 +65,7 @@
 .form__input:read-only {
     background-color: hsl(0, 0%, 80%);
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     padding: 10px;
     border: 1px solid #aaa;
     border-radius: 5px;
