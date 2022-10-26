@@ -10,6 +10,6 @@
 
 It's my first currency converter web-app. You can enter the amount and convert selected currency (USD, CHF, EUR lub GBR) to PLN. In near future this app will grow by new functions.
 
-## Uses technologies
+## Used technologies
 
 HTML, CSS, JS, BEM convention.
