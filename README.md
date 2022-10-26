@@ -1,11 +1,15 @@
-# Currency converter - kalkulator walutowy
+# Currency converter app
 
-![Currency converter](https://github.com/mslowinski85/currency-converter/blob/main/images/screen-shot.png)
+![Currency converter](https://github.com/mslowinski85/currency-converter/blob/main/images/curr-conv.gif)
 
-## Adres aplikacji "Kalkulatora Walutowego"
+## Website app address
 
 [https://mslowinski85.github.io/currency-converter](https://mslowinski85.github.io/currency-converter/)
 
-## Opis działania aplikacji
+## Description
 
-To jest pierwsza wersja aplikacji kalkulatora walutowego. Posiada funkcję przeliczania wybranej waluty (USD, CHF, EUR lub GBR) na PLN. Aplikacja została zbudowana w oparciu o HTML, CSS i JS. W niedalekiej przyszłości kalkulator będzie sukcesywnie rozbudowywany o kolejne funkcje.
+It's my first currency converter web-app. You can enter the amount and convert selected currency (USD, CHF, EUR lub GBR) to PLN. In near future this app will grow by new functions.
+
+## Uses technologies
+
+HTML, CSS, JS, BEM convention.
