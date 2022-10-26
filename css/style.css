@@ -15,4 +15,6 @@ html {
     max-width: 850px;
     margin: 0px auto;
     overflow-x: auto;
+    background-image: url("../images/background.png");
+    background-size: cover;
 }
