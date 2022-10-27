@@ -30,7 +30,7 @@
     const euroRate = 4.833;
     const poundRate = 5.5886;
     const frankRate = 4.9526;
-    
+
     radioElementDollar.checked === true
       ? currentRateValue(dollarRate)
       : radioElementEuro.checked === true
@@ -46,11 +46,9 @@
     welcome();
     inputElement();
     formElement.addEventListener("input", () => {
-      if (inputElement().value >= 0) {
-        radioElementChecked();
-      } else {
-        inputElement().value = "";
-      }
+      inputElement().value >= 0
+        ? radioElementChecked()
+        : (inputElement().value = "");
     });
   };
 
