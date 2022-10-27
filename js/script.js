@@ -26,20 +26,18 @@
     const radioElementDollar = document.querySelector(".js-dollar");
     const radioElementEuro = document.querySelector(".js-euro");
     const radioElementPound = document.querySelector(".js-pound");
-
-    if (radioElementDollar.checked === true) {
-      const dollarRate = 4.9569;
-      currentRateValue(dollarRate);
-    } else if (radioElementEuro.checked === true) {
-      const euroRate = 4.833;
-      currentRateValue(euroRate);
-    } else if (radioElementPound.checked === true) {
-      const poundRate = 5.5886;
-      currentRateValue(poundRate);
-    } else {
-      const frankRate = 4.9526;
-      currentRateValue(frankRate);
-    }
+    const dollarRate = 4.9569;
+    const euroRate = 4.833;
+    const poundRate = 5.5886;
+    const frankRate = 4.9526;
+    
+    radioElementDollar.checked === true
+      ? currentRateValue(dollarRate)
+      : radioElementEuro.checked === true
+      ? currentRateValue(euroRate)
+      : radioElementPound.checked === true
+      ? currentRateValue(poundRate)
+      : currentRateValue(frankRate);
   };
 
   const init = () => {
