@@ -11,7 +11,7 @@
 
   const updateResultInput = (finallySum) => {
     const inputElementFinallySum = document.querySelector(".js-finallySum");
-    inputElementFinallySum.value = `${finallySum.toFixed(2)} zł`;
+    return inputElementFinallySum.value = `${finallySum.toFixed(2)} zł`;
   };
 
   const currentRateValue = (choosingRate) => {
